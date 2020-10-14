@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(https://media.discordapp.net/attachments/761546561938784260/765549206365798410/natural-default-pattern.png);
+}
+
+#contenitore {
+  width: 1000px;
+  margin: auto;
+}
+
+.float-left {
+ float:left;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+header {
+  height: 400px;
+  background: red;
+  position: relative;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.header-top {
+  position: relative;
+  height: 356px;
+  border: 10px solid white;
+  background-image: url("../img/immagine.jpg");
+  background-size: cover;
+}
+
+.header-top h1 {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-bottom: 100px;
+}
+
+.logo img {
+  width: 100%;
+}
+
+nav {
+  width: 100%;
+  height: 44px;
+  background: #504541;
+  position: absolute;
+  bottom: 0;
+}
+
+.navbar ul {
+  list-style: none;
+}
+
+.menu li {
+  display: inline-block;
+  line-height: 44px;
+  padding: 0 10px;
+}
+
+.menu li a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  font-size: 11px;
+}
+
+.menu li:hover {
+  background: lightgrey;
+}
+
+.menu li a:hover {
+  background-color: lightgrey;
+  text-decoration: underline;
+}
+
+main:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-left, .col-right {
+  width: 20%;
+}
+
+.c-header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-left i {
+  margin-left: 7px;
+  padding-right: 10px;
+  font-size: 30px;
+  color: orange;
+}
+
+.col-left h2 {
+  width: 60%;
+  font-weight: 40px;
+}
+
+.noangoli {
+  border-radius: 10px;
+  padding: 5px;
+  background: white;
+}
+
+.col-center {
+  width: 50%;
+  background: white;
+  margin: 0 5%;
+}
+
+h2 {
+  margin-left: 7px;
+  padding-top: 8px;
+  text-shadow: 2px 2px lightgrey;
+}
+
+.paragrafo2 {
+  line-height: 2em;
+  margin-left: 7px;
+  font-size: 16px;
+  padding-top: 10px;
+  padding-bottom: 12px;
+}
+.paragrafo1 {
+  margin-left: 7px;
+  font-size: 19px;
+  color: green;
+  padding-top: 5px;
+}
+.col-left .paragrafo1:hover {
+  text-decoration: underline;
+  background-color: lightgreen;
+}
+
+.widget {
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.w-titolo {
+  padding-bottom: 15px;
+}
+.paragrafo3 {
+  line-height: 2em;
+}
+
+/* footer */
+footer {
+width: 100%;
+height: 200px;
+margin-top: 20px;
+margin-bottom: 0;
+background: white;
+border-style: inset;
+}
+
+footer:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.finale {
+  text-align: center;
+  color: lightgrey;
+}
+
+hr {
+  color: lightgrey;
+}
+
+.social {
+  height: 180px;
+  width: 33.33%;
+  position: relative;
+}
+
+.last {
+  font-size: 40px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.last:hover {
+  display: none;
+}
